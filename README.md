@@ -17,6 +17,10 @@ A simple and responsive weather application built with **HTML, CSS, and JavaScri
 
 ---
 
+Preview
+<img width="1919" height="906" alt="Screenshot 2025-07-10 195154" src="https://github.com/user-attachments/assets/26d3e78e-d2b5-446e-8765-fd59a4cda37a" />
+
+
 ## 🔧 Technologies Used
 
 - **HTML5** – Structure of the app  
