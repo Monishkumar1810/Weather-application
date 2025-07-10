@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: linear-gradient(135deg, #74ebd5, #9face6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+
+    .weather-app {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #4a00e0;
+    }
+
+    input {
+      padding: 12px 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: calc(100% - 30px);
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    #searchBtn {
+      background-color: #0077b6;
+      color: white;
+    }
+
+    #searchBtn:hover {
+      background-color: #023e8a;
+    }
+
+    #locBtn {
+      background-color: #f77f00;
+      color: white;
+    }
+
+    #locBtn:hover {
+      background-color: #d62828;
+    }
+
+    #weatherOutput {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 12px;
+      background-color: #f1f1f1;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    ul li {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="weather-app">
+    <h2>🌤️ Weather App</h2>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <div>
+      <button id="searchBtn">Get Weather</button>
+      <button id="locBtn">Use My Location</button>
+    </div>
+    <div id="weatherOutput"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
